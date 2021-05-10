@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="primary lighten-1"
       dark
     >
       <div class="d-flex align-center">
@@ -19,12 +19,11 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
+        href="#"
         text
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <span>HOME</span>
+        <!-- <v-icon large>mdi-home</v-icon> -->
       </v-btn>
     </v-app-bar>
 

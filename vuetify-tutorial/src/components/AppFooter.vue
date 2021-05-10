@@ -1,14 +1,19 @@
 <template>
   <v-footer
-    dark
+    color="primary lighten-1"
     padless
     absolute
   >
-    <v-card
+    <v-layout
+    justify-center
+    wrap
+    >
+    <!-- add v-layout for make content to the center -->
+      <v-card
       flat
       tile
-      class="indigo lighten-1 white--text text-center"
-    >
+      class="primary lighten-1 white--text text-center"
+      >
       <v-card-text>
         <v-btn
           v-for="icon in icons"
@@ -23,15 +28,16 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Project by Broken Birds Wings
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Housing Payment. All Rights Reserved</strong>
       </v-card-text>
     </v-card>
+    </v-layout>
   </v-footer>
 </template>
 

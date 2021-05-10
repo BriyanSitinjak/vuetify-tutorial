@@ -1,6 +1,6 @@
 <template>
   <v-card
-    color="grey lighten-4"
+    color="#FFFFFF"
     flat
     height="200px"
     tile
@@ -14,7 +14,7 @@
 
        <v-spacer></v-spacer>
 
-      <v-toolbar-title class="white--text">Vuetify Tutorial</v-toolbar-title>
+      <v-toolbar-title class="white--text">Housing Payment</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
