@@ -19,11 +19,23 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="#"
+        href="/"
         text
-      >
+      > 
         <span>HOME</span>
         <!-- <v-icon large>mdi-home</v-icon> -->
+      </v-btn>
+      <v-btn
+      href="/about"
+      text
+      >
+        <span>ABOUT</span>
+      </v-btn>
+      <v-btn
+      href="/login"
+      text
+      >
+        <span>LOGIN</span>
       </v-btn>
     </v-app-bar>
 
