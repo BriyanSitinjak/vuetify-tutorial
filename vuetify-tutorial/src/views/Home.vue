@@ -3,13 +3,13 @@
 </template>
 
 <script>
-  import AppHome from '../components/AppHome'
+import AppHome from "../components/AppHome";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      AppHome,
-    },
-  }
+  components: {
+    AppHome,
+  },
+};
 </script>

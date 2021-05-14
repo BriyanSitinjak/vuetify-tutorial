@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <app-landing-page></app-landing-page>
   </div>
 </template>
+
+<script>
+import AppLandingPage from "../components/AppLandingPage.vue";
+
+export default {
+  components: {
+    AppLandingPage,
+  },
+};
+</script>

@@ -1,34 +1,28 @@
 <template>
-  <v-card
-    color="#FFFFFF"
-    flat
-    height="200px"
-    tile
-  >
-    <v-toolbar 
-    dense
-    color="blue darken-2"
-    dark> 
-    <!-- dark stand for all items to be light or readable -->
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+  <v-app-bar app color="primary lighten-1" dark>
+    <div class="d-flex align-center">
+      <v-img
+        alt="Vuetify Logo"
+        class="shrink mr-2"
+        contain
+        src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+        transition="scale-transition"
+        width="40"
+      />
+    </div>
 
-       <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
 
-      <v-toolbar-title class="white--text">Housing Payment</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-toolbar>
-  </v-card>
+    <v-btn href="/" text>
+      <span>HOME</span>
+      <!-- <v-icon large>mdi-home</v-icon> -->
+    </v-btn>
+    <v-btn href="/about" text>
+      <span>ABOUT</span>
+    </v-btn>
+    <router-link to="/login">
+      <v-btn text>LOGIN</v-btn>
+      <!-- text stands for dissapear the background of button -->
+    </router-link>
+  </v-app-bar>
 </template>

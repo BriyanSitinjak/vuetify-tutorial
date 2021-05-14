@@ -1,57 +1,27 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary lighten-1"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="/"
-        text
-      > 
-        <span>HOME</span>
-        <!-- <v-icon large>mdi-home</v-icon> -->
-      </v-btn>
-      <v-btn
-      href="/about"
-      text
-      >
-        <span>ABOUT</span>
-      </v-btn>
-      <v-btn
-      href="/login"
-      text
-      >
-        <span>LOGIN</span>
-      </v-btn>
-    </v-app-bar>
-
     <v-main>
-      <router-view/>
+      <app-toolbar></app-toolbar>
+      <router-view />
+      <app-footer></app-footer>
     </v-main>
   </v-app>
 </template>
 
 <script>
+import AppFooter from "./components/AppFooter.vue";
+import AppToolbar from "./components/AppToolbar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   data: () => ({
     //
   }),
+
+  components: {
+    AppFooter,
+    AppToolbar,
+  },
 };
 </script>
