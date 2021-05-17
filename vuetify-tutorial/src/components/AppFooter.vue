@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="primary lighten-1" paddless fixed>
+  <v-footer color="primary lighten-1" paddless>
     <v-layout justify-center wrap>
       <!-- add v-layout for make content to the center -->
       <v-card flat tile class="primary lighten-1 white--text text-center">

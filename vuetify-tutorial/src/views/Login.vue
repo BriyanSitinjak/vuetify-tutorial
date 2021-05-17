@@ -37,9 +37,9 @@
         @blur="$v.checkbox.$touch()"
       ></v-checkbox>
 
-      <v-btn class="mr-4" @click="submit"> KIRIM DATA SAYA </v-btn>
+      <v-btn class="mr-4" @click="submit"> MASUK </v-btn>
 
-      <v-btn @click="clear"> HAPUS DATA SAYA </v-btn>
+      <v-btn @click="clear"> HAPUS DATA </v-btn>
     </form>
   </v-container>
 </template>
