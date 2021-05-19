@@ -50,40 +50,7 @@
             ipsa vitae maiores sapiente in libero est omnis nesciunt nemo
             laborum voluptas aliquid placeat debitis, dolores assumenda ad
             voluptatibus doloremque impedit quaerat dolor. Expedita officia vel
-            omnis quasi alias. Expedita ipsam dolorum iste sed error quod
-            corrupti inventore deserunt voluptatum blanditiis, iusto voluptatem,
-            debitis eaque ab impedit distinctio beatae omnis nulla vitae facilis
-            excepturi accusantium, nesciunt placeat. Eum, optio. Cupiditate
-            similique nihil ea! Laudantium culpa, iusto sit dolor quam sed. Amet
-            laboriosam laudantium quas totam omnis, hic molestias cum eveniet
-            aut dolorem veritatis alias minima, tenetur, dolores magnam?
-            Deserunt. Similique quam iusto, fuga pariatur quod voluptate, quia
-            asperiores esse impedit, labore eius soluta dolorum eum cum in illo
-            possimus non architecto quaerat fugiat. Assumenda voluptatum
-            incidunt nemo eligendi corrupti. Neque mollitia quaerat maiores ut,
-            laboriosam tempore, vitae quo numquam est odit similique, et
-            incidunt? Saepe labore voluptas sit eveniet porro! Aspernatur quasi
-            provident id libero explicabo, facilis quia consequuntur! Magnam,
-            magni. Nostrum obcaecati commodi sunt deleniti iste eligendi
-            distinctio ipsa eum nemo, deserunt doloremque vel impedit nisi ad
-            ratione ducimus alias debitis quis dolore in, amet totam assumenda
-            odio? Dignissimos distinctio sequi quia maiores neque harum debitis
-            nesciunt, deserunt dolorum, aliquid omnis totam et, vel reiciendis.
-            Nisi, doloremque iure, quisquam magnam iste assumenda corporis
-            dolorum, reprehenderit odit rerum rem! Fuga, aperiam earum repellat
-            culpa fugit reiciendis vitae velit possimus nihil nostrum, voluptas
-            corporis, quasi similique numquam? Labore facilis commodi non.
-            Beatae mollitia doloribus aliquam, iure explicabo quisquam sapiente
-            tempora! Nisi perferendis veritatis, labore nam iste eum nulla
-            voluptates non quia itaque! Esse ipsum voluptas modi distinctio
-            eligendi adipisci quod, ducimus in itaque aperiam nemo corrupti
-            provident minus mollitia cum! Ratione corporis non, veniam suscipit
-            sapiente fugiat, harum possimus voluptas recusandae quos veritatis
-            nisi est error debitis iste omnis distinctio assumenda quibusdam ex
-            qui corrupti inventore. Quidem ex aliquid consequatur! Ab ipsum
-            totam itaque consequuntur natus in eligendi quod, aliquam quae
-            voluptatem, laboriosam optio ratione et sit vero molestiae aperiam
-            dignissimos nam velit eaque cupiditate nemo hic? Eum, obcaecati id?
+            omnis quasi alias.
           </v-card-text>
         </div>
       </v-expand-transition>
