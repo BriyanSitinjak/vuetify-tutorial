@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-carousel>
+    <v-carousel height="90vh">
       <v-carousel-item
         v-for="(item, i) in items"
         :key="i"
@@ -9,7 +9,8 @@
         transition="fade-transition"
       ></v-carousel-item>
     </v-carousel>
-    <v-card class="mx-auto" max-width="344">
+
+    <!-- <v-card class="mx-auto" max-width="344">
       <v-img
         src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
         height="200px"
@@ -17,7 +18,7 @@
       <v-card-title> Our Best Product </v-card-title>
       <v-card-subtitle>
         Housing Payment dapat membantu anda dalam menyelesaikan kebingungan anda
-        dalam merekap biaya rumah anda
+        dalam merekap biaya rumah
       </v-card-subtitle>
       <v-card-actions>
         <v-btn color="grey darken-2"> Explore </v-btn>
@@ -54,7 +55,12 @@
           </v-card-text>
         </div>
       </v-expand-transition>
-    </v-card>
+    </v-card> -->
+
+    <div class="center-space-between caption">
+      <h2>Why Housing Payment?</h2>
+      <p>6 Reasons To Use Our Application</p>
+    </div>
   </v-app>
 </template>
 

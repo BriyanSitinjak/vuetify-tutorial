@@ -21,8 +21,10 @@
       <span>ABOUT</span>
     </v-btn>
     <router-link to="/login">
-      <v-btn text>LOGIN</v-btn>
-      <!-- text stands for dissapear the background of button -->
+      <v-badge color="red" dot overlap offset-x="20" offset-y="15">
+        <v-btn text>LOGIN</v-btn>
+        <!-- text stands for dissapear the background of button -->
+      </v-badge>
     </router-link>
   </v-app-bar>
 </template>
