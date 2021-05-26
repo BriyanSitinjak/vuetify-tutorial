@@ -154,6 +154,16 @@
       </v-row>
     </v-container>
     </div>
+
+    <div class="text-center" style="margin:100px 20px 10px 20px;">
+      <v-rating
+      v-model="rating"
+      hover
+      icon-label="custom icon label text {0} of {1}"
+      >
+      </v-rating>
+    </div>
+
   </v-app>
 </template>
 
@@ -175,6 +185,7 @@ export default {
           src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
         },
       ],
+      rating: 4,
     };
   },
 };
