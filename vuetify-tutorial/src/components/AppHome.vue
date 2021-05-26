@@ -105,6 +105,55 @@
       </v-row>
     </v-container>
     </div>
+
+    <div class="text-center" style="margin:100px 20px;">
+      <p class="text-md-h4 font-weight-bold">Why Housing Payment?</p>
+      <p class="text-md-subtitle-1"> 6 Reasons To Use Our Application</p>
+      <v-container>
+      <v-row>
+        <v-col xs="6">
+          <v-card>
+            <h2>Briyan Sitinjak</h2>
+            <p>Clansitinjak</p>
+          </v-card>
+        </v-col>
+        <v-col xs="6">
+          <v-card>
+            <h2>Briyan Sitinjak</h2>
+            <p>Clansitinjak</p>
+          </v-card>
+        </v-col>
+        <v-col xs="6">
+          <v-card>
+            <h2>Briyan Sitinjak</h2>
+            <p>Clansitinjak</p>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container>
+      <v-row>
+        <v-col>
+          <v-card>
+            <h2>Briyan Sitinjak</h2>
+            <p>Clansitinjak</p>
+          </v-card>
+        </v-col>
+        <v-col>
+          <v-card>
+            <h2>Briyan Sitinjak</h2>
+            <p>Clansitinjak</p>
+          </v-card>
+        </v-col>
+        <v-col>
+          <v-card>
+            <h2>Briyan Sitinjak</h2>
+            <p>Clansitinjak</p>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+    </div>
   </v-app>
 </template>
 
