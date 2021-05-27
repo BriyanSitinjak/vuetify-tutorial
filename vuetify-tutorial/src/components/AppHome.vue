@@ -62,41 +62,53 @@
       <p class="text-md-subtitle-1"> 6 Reasons To Use Our Application</p>
       <v-container>
       <v-row>
-        <v-col xs="6">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
+        <v-col xs="12" sm="12" md="4">
+          <v-card style="padding:45px 20px;">
+            <v-icon
+            size="70px"
+            color="primary"
+            >mdi-google-maps</v-icon>
+            <h2>Deliver to your location</h2>
+            <p>Easy Delivery and pick-up from/to your preferred location.</p>
           </v-card>
         </v-col>
-        <v-col xs="6">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
+        <v-col xs="12" sm="12" md="4">
+          <v-card style="padding:45px 20px;">
+            <v-icon
+            size="70px"
+            color="primary"
+            >mdi-cellphone-android</v-icon>
+            <h2>Deliver to your location</h2>
+            <p>Easy Delivery and pick-up from/to your preferred location.</p>
           </v-card>
         </v-col>
-        <v-col xs="6">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
+        <v-col xs="12" sm="12" md="4">
+          <v-card style="padding:45px 20px;">
+            <v-icon
+            size="70px"
+            color="primary"
+            >mdi-shopping</v-icon>
+            <h2>Deliver to your location</h2>
+            <p>Easy Delivery and pick-up from/to your preferred location.</p>
           </v-card>
         </v-col>
       </v-row>
     </v-container>
     <v-container>
       <v-row>
-        <v-col>
+        <v-col xs="0" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col xs="0" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col xs="0" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
@@ -111,19 +123,19 @@
       <p class="text-md-subtitle-1"> 6 Reasons To Use Our Application</p>
       <v-container>
       <v-row>
-        <v-col xs="6">
+        <v-col xs="12" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
           </v-card>
         </v-col>
-        <v-col xs="6">
+        <v-col xs="12" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
           </v-card>
         </v-col>
-        <v-col xs="6">
+        <v-col xs="12" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
@@ -133,19 +145,19 @@
     </v-container>
     <v-container>
       <v-row>
-        <v-col>
+        <v-col xs="12" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col xs="12" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
           </v-card>
         </v-col>
-        <v-col>
+        <v-col xs="12" sm="12" md="4">
           <v-card>
             <h2>Briyan Sitinjak</h2>
             <p>Clansitinjak</p>
