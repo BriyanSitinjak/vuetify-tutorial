@@ -57,125 +57,129 @@
       </v-expand-transition>
     </v-card> -->
 
-    <div class="text-center" style="margin:100px 20px;">
+    <!-- add icon on https://pictogrammers.github.io/@mdi/font/2.0.46/ -->
+    <div class="text-center" style="margin: 100px 20px">
       <p class="text-md-h4 font-weight-bold">Why Housing Payment?</p>
-      <p class="text-md-subtitle-1"> 6 Reasons To Use Our Application</p>
+      <p class="text-md-subtitle-1">6 Reasons To Use Our Application</p>
       <v-container>
-      <v-row>
-        <v-col xs="12" sm="12" md="4">
-          <v-card style="padding:45px 20px;">
-            <v-icon
-            size="70px"
-            color="primary"
-            >mdi-google-maps</v-icon>
-            <h2>Deliver to your location</h2>
-            <p>Easy Delivery and pick-up from/to your preferred location.</p>
-          </v-card>
-        </v-col>
-        <v-col xs="12" sm="12" md="4">
-          <v-card style="padding:45px 20px;">
-            <v-icon
-            size="70px"
-            color="primary"
-            >mdi-cellphone-android</v-icon>
-            <h2>Deliver to your location</h2>
-            <p>Easy Delivery and pick-up from/to your preferred location.</p>
-          </v-card>
-        </v-col>
-        <v-col xs="12" sm="12" md="4">
-          <v-card style="padding:45px 20px;">
-            <v-icon
-            size="70px"
-            color="primary"
-            >mdi-shopping</v-icon>
-            <h2>Deliver to your location</h2>
-            <p>Easy Delivery and pick-up from/to your preferred location.</p>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-    <v-container>
-      <v-row>
-        <v-col xs="0" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-        <v-col xs="0" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-        <v-col xs="0" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
+        <v-row>
+          <v-col xs="12" sm="12" md="4">
+            <v-card style="padding: 45px 20px">
+              <v-icon size="70px" color="primary">mdi-google-maps</v-icon>
+              <h2>Deliver to your location</h2>
+              <p>Easy Delivery and pick-up from/to your preferred location.</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card style="padding: 45px 20px">
+              <v-icon size="70px" color="primary">mdi-cellphone-android</v-icon>
+              <h2>Easy Booking</h2>
+              <p>Select and book your favorite vehicle in just a few clicks.</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card style="padding: 45px 20px">
+              <v-icon size="70px" color="primary">mdi-shopping</v-icon>
+              <h2>Trusted Vendors</h2>
+              <p>
+                Housing Payment only works with reliable partners and companies.
+              </p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+      <v-container>
+        <v-row>
+          <v-col xs="12" sm="12" md="4">
+            <v-card style="padding: 45px 20px">
+              <v-icon size="70px" color="primary">mdi-google-maps</v-icon>
+              <h2>Deliver to your location</h2>
+              <p>Easy Delivery and pick-up from/to your preferred location.</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card style="padding: 45px 20px">
+              <v-badge
+                content="Coming Soon"
+                color="primary"
+                offset-y="-50"
+                offset-x="-125"
+              ></v-badge>
+              <v-icon size="70px" color="primary">mdi-cellphone-android</v-icon>
+              <h2>Easy Booking</h2>
+              <p>Select and book your favorite vehicle in just a few clicks.</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card style="padding: 45px 20px">
+              <v-icon size="70px" color="primary">mdi-shopping</v-icon>
+              <h2>Trusted Vendors</h2>
+              <p>
+                Housing Payment only works with reliable partners and companies.
+              </p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </div>
 
-    <div class="text-center" style="margin:100px 20px;">
+    <div class="text-center" style="margin: 100px 20px">
       <p class="text-md-h4 font-weight-bold">Why Housing Payment?</p>
-      <p class="text-md-subtitle-1"> 6 Reasons To Use Our Application</p>
+      <p class="text-md-subtitle-1">6 Reasons To Use Our Application</p>
       <v-container>
-      <v-row>
-        <v-col xs="12" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-        <v-col xs="12" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-        <v-col xs="12" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-    <v-container>
-      <v-row>
-        <v-col xs="12" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-        <v-col xs="12" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-        <v-col xs="12" sm="12" md="4">
-          <v-card>
-            <h2>Briyan Sitinjak</h2>
-            <p>Clansitinjak</p>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
+        <v-row>
+          <v-col xs="12" sm="12" md="4">
+            <v-card>
+              <h2>Briyan Sitinjak</h2>
+              <p>Clansitinjak</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card>
+              <h2>Briyan Sitinjak</h2>
+              <p>Clansitinjak</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card>
+              <h2>Briyan Sitinjak</h2>
+              <p>Clansitinjak</p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+      <v-container>
+        <v-row>
+          <v-col xs="12" sm="12" md="4">
+            <v-card>
+              <h2>Briyan Sitinjak</h2>
+              <p>Clansitinjak</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card>
+              <h2>Briyan Sitinjak</h2>
+              <p>Clansitinjak</p>
+            </v-card>
+          </v-col>
+          <v-col xs="12" sm="12" md="4">
+            <v-card>
+              <h2>Briyan Sitinjak</h2>
+              <p>Clansitinjak</p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </div>
 
-    <div class="text-center" style="margin:100px 20px 10px 20px;">
+    <div class="text-center" style="margin: 100px 20px 10px 20px">
       <v-rating
-      v-model="rating"
-      hover
-      icon-label="custom icon label text {0} of {1}"
+        v-model="rating"
+        hover
+        icon-label="custom icon label text {0} of {1}"
       >
       </v-rating>
     </div>
-
   </v-app>
 </template>
 
