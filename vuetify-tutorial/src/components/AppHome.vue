@@ -10,6 +10,23 @@
       ></v-carousel-item>
     </v-carousel>
 
+    <v-container>
+      <v-row class="d-flex justify-space-around mb-6">
+        <!-- ctrl + shift + i -->
+        <v-col v-for="item in data" :key="item" md="4" sm="12" xs="12">
+          <v-card v-ripple>
+            <v-col>
+              <center>
+                <v-icon>{{ item.icon }}</v-icon>
+                <div v-text="item.title"></div>
+                <div v-text="item.desc"></div>
+              </center>
+            </v-col>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+
     <!-- <v-card class="mx-auto" max-width="344">
       <v-img
         src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
@@ -58,7 +75,7 @@
     </v-card> -->
 
     <!-- add icon on https://pictogrammers.github.io/@mdi/font/2.0.46/ -->
-    <div class="text-center" style="margin: 100px 20px">
+    <!-- <div class="text-center" style="margin: 100px 20px">
       <p class="text-md-h4 font-weight-bold">Why Housing Payment?</p>
       <p class="text-md-subtitle-1">6 Reasons To Use Our Application</p>
       <v-container>
@@ -121,56 +138,7 @@
           </v-col>
         </v-row>
       </v-container>
-    </div>
-
-    <div class="text-center" style="margin: 100px 20px">
-      <p class="text-md-h4 font-weight-bold">Why Housing Payment?</p>
-      <p class="text-md-subtitle-1">6 Reasons To Use Our Application</p>
-      <v-container>
-        <v-row>
-          <v-col xs="12" sm="12" md="4">
-            <v-card>
-              <h2>Briyan Sitinjak</h2>
-              <p>Clansitinjak</p>
-            </v-card>
-          </v-col>
-          <v-col xs="12" sm="12" md="4">
-            <v-card>
-              <h2>Briyan Sitinjak</h2>
-              <p>Clansitinjak</p>
-            </v-card>
-          </v-col>
-          <v-col xs="12" sm="12" md="4">
-            <v-card>
-              <h2>Briyan Sitinjak</h2>
-              <p>Clansitinjak</p>
-            </v-card>
-          </v-col>
-        </v-row>
-      </v-container>
-      <v-container>
-        <v-row>
-          <v-col xs="12" sm="12" md="4">
-            <v-card>
-              <h2>Briyan Sitinjak</h2>
-              <p>Clansitinjak</p>
-            </v-card>
-          </v-col>
-          <v-col xs="12" sm="12" md="4">
-            <v-card>
-              <h2>Briyan Sitinjak</h2>
-              <p>Clansitinjak</p>
-            </v-card>
-          </v-col>
-          <v-col xs="12" sm="12" md="4">
-            <v-card>
-              <h2>Briyan Sitinjak</h2>
-              <p>Clansitinjak</p>
-            </v-card>
-          </v-col>
-        </v-row>
-      </v-container>
-    </div>
+    </div> -->
 
     <div class="text-center" style="margin: 100px 20px 10px 20px">
       <v-rating
@@ -184,6 +152,8 @@
 </template>
 
 <script>
+// import HomeItem from "../data/HomeItem.js";
+
 export default {
   data() {
     return {
@@ -199,6 +169,26 @@ export default {
         },
         {
           src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+        },
+      ],
+      data: [
+        {
+          id: 1,
+          title: "loremipsumdollor amet 1",
+          desc: "loremipsumdollor amet",
+          icon: "mdi-account",
+        },
+        {
+          id: 2,
+          title: "loremipsumdollor amet 2",
+          desc: "loremipsumdollor amet",
+          icon: "mdi-account",
+        },
+        {
+          id: 3,
+          title: "loremipsumdollor amet 3",
+          desc: "loremipsumdollor amet",
+          icon: "mdi-account",
         },
       ],
       rating: 4,
