@@ -19,12 +19,48 @@
                           <v-btn class="mx-2" fab color="primary" outlined>
                             <v-icon> fab fa-facebook</v-icon>
                           </v-btn>
+                          <v-btn class="mx-2" fab color="primary" outlined>
+                            <v-icon>fab fa-google-plus-g</v-icon>
+                          </v-btn>
+                          <v-btn class="mx-2" fab color="primary" outlined>
+                            <v-icon> fab fa-linkedin-in</v-icon>
+                          </v-btn>
+                        </div>
+                        <h4 class="text-center mlt-4">
+                          Ensure your email for registration
+                        </h4>
+                        <v-form>
+                          <v-text-field
+                            label="Email"
+                            name="Email"
+                            prepend-icon="email"
+                            type="text"
+                            color="teal accent-3"
+                          >
+                          </v-text-field>
+                        </v-form>
+                      </v-card-text>
+                    </v-col>
+                  </v-row>
+                </v-window-item>
+                <v-window-item :value="2">
+                  <v-row>
+                    <v-col cols="12" md="8">
+                      <v-card-text class="mt-12">
+                        <h1
+                          class="text-center display-2 teal--text text--accent-3"
+                        >
+                          Register to Housing Payment
+                        </h1>
+                        <div class="text-center" mt-4>
+                          <v-btn class="mx-2" fab color="primary" outlined>
+                            <v-icon> fab fa-twitter</v-icon>
+                          </v-btn>
                         </div>
                       </v-card-text>
                     </v-col>
                   </v-row>
                 </v-window-item>
-                <v-window-item :value="2"> </v-window-item>
               </v-window>
             </v-card>
           </v-col>
