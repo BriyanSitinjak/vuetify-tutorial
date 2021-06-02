@@ -36,8 +36,15 @@
                             prepend-icon="email"
                             type="text"
                             color="teal accent-3"
-                          >
-                          </v-text-field>
+                          />
+                          <v-text-field
+                            id="password"
+                            label="Password"
+                            name="Password"
+                            prepend-icon="lock"
+                            type="password"
+                            color="teal accent-3"
+                          />
                         </v-form>
                       </v-card-text>
                     </v-col>
